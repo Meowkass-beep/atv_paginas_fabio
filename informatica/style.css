@@ -18,12 +18,12 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 3vh;
+    margin-top: 30px;
     margin-left: 1vw;
 }
 
 #link-nav2{
-    margin-left: 15vw;
+    margin-top: 80px;
 }
 
 ul li{
