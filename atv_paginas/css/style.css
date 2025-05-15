@@ -1,0 +1,155 @@
+body {
+    background-image: url('../background/background.gif');
+    background-size: cover;
+    color: #ffd9ec;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    cursor: url('https://cur.cursors-4u.net/cursors/cur-9/cur837.cur'), auto;
+    min-height: 93.1vh;
+}
+
+#formacao{
+    position: fixed;    
+    left: 0;
+    top: 0;
+    margin: 50px 0 0 50px;
+}
+
+.escolas span{
+    margin-left: 20px;
+    font-style: italic;
+    color: #ff53a9;
+}
+
+ul li{
+    color: #ff0080;
+}
+
+header   {
+    background-color: rgba(255, 240, 250, 0.8);
+    border: 3px dashed #ffb6c1;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h1,
+h2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+    color: #ff1493;
+    text-shadow: 1px 1px white;
+}
+
+.foto-perfil {
+    border: 6px double pink;
+    background-color: white;
+    width: 260px;
+    padding: 6px;
+    box-shadow: 0 0 15px #ffb6c1;
+}
+
+a {
+    color: white;
+    background-color: #ff69b4;
+    padding: 6px 10px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    background-color: white;
+    color: #ff69b4;
+    border: 2px dashed #ff69b4;
+}
+
+.blinking {
+    animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.rainbow {
+    animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        color: rgb(255, 0, 128);
+    }
+
+    25% {
+        color: rgb(255, 0, 13);
+    }
+
+    50% {
+        color: rgb(155, 0, 98);
+    }
+
+    75% {
+        color: deeppink;
+    }
+
+    100% {
+        color: rgb(222, 11, 255);
+    }
+}
+
+.rainbow2 {
+    animation: rainbow2 2s linear infinite;
+}
+
+@keyframes rainbow2 {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(255, 136, 0);
+    }
+
+    50% {
+        color: rgb(255, 179, 0);
+    }
+
+    75% {
+        color: rgb(255, 90, 20);
+    }
+
+    100% {
+        color: rgb(255, 57, 57);
+    }
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+#texto {
+    color: #ff1493;
+}
